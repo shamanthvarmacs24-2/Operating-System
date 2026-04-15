@@ -82,7 +82,6 @@ int main() {
 
         printf("Deadline: ");
         scanf("%d", &p[i].deadline);
-    }
 
     EDF_Scheduler(p, n);
 
